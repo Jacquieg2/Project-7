@@ -16,7 +16,3 @@ def list_of_primes_up_to(limit=100):
 
     # Return a list of prime numbers
     return [i for i, is_prime in enumerate(primes) if is_prime]
-
-# Example usage
-result = list_of_primes_up_to(1000)
-print(result)  # Outputs list of prime numbers up to 1000
