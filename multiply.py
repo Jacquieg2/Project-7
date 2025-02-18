@@ -4,6 +4,3 @@ def multiply(a, b):
         return a
     # Recursive case: add a to the result of multiply(a, b - 1)
     return a + multiply(a, b - 1)
-
-# Test the function
-print(multiply(7, 4))  # Output should be 28
